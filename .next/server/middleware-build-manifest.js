@@ -7,33 +7,25 @@ globalThis.__BUILD_MANIFEST = {
     "static/chunks/0cz1d0mv5g_q7.js"
   ],
   "lowPriorityFiles": [
-    "static/-3SKaSzID9xaTU_A77moU/_buildManifest.js",
-    "static/-3SKaSzID9xaTU_A77moU/_ssgManifest.js",
-    "static/-3SKaSzID9xaTU_A77moU/_clientMiddlewareManifest.js"
+    "static/O_jzqrWoKqmrAHUegvJBY/_buildManifest.js",
+    "static/O_jzqrWoKqmrAHUegvJBY/_ssgManifest.js",
+    "static/O_jzqrWoKqmrAHUegvJBY/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/3cfn99dbrcvvp.js",
-    "static/chunks/21jmab2xql1m7.js",
-    "static/chunks/0p_w__bs2_j30.js",
+    "static/chunks/1x6obpmlu1_c2.js",
+    "static/chunks/2r4s4h5xul1n-.js",
+    "static/chunks/3dmm3v_fq28gc.js",
+    "static/chunks/0rm4bmi_uaeqm.js",
     "static/chunks/turbopack-3-ry682tkyiqk.js"
   ],
   "rootMainFilesTree": {},
   "pagesChunkGroupBootstrapParams": {
-    "/page": {
-      "otherChunks": [
-        "static/chunks/3cfn99dbrcvvp.js",
-        "static/chunks/21jmab2xql1m7.js",
-        "static/chunks/0p_w__bs2_j30.js"
-      ],
-      "runtimeModuleIds": [
-        94553
-      ]
-    },
     "/_not-found/page": {
       "otherChunks": [
-        "static/chunks/3cfn99dbrcvvp.js",
-        "static/chunks/21jmab2xql1m7.js",
-        "static/chunks/0p_w__bs2_j30.js"
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/2r4s4h5xul1n-.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/0rm4bmi_uaeqm.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -41,9 +33,21 @@ globalThis.__BUILD_MANIFEST = {
     },
     "/_global-error/page": {
       "otherChunks": [
-        "static/chunks/3cfn99dbrcvvp.js",
-        "static/chunks/21jmab2xql1m7.js",
-        "static/chunks/0p_w__bs2_j30.js"
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/2r4s4h5xul1n-.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/0rm4bmi_uaeqm.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/[locale]/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/2r4s4h5xul1n-.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/0rm4bmi_uaeqm.js"
       ],
       "runtimeModuleIds": [
         94553
