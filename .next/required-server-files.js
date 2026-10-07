@@ -97,6 +97,7 @@ self.__SERVER_FILES_MANIFEST={
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "standalone",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -105,7 +106,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/sterbenrk987/digidz_dev",
+    "outputFileTracingRoot": "D:\\Projects\\digidz_dev",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -346,12 +347,12 @@ self.__SERVER_FILES_MANIFEST={
       "resolveAlias": {
         "next-intl/config": "./src/i18n/request.ts"
       },
-      "root": "/home/sterbenrk987/digidz_dev"
+      "root": "D:\\Projects\\digidz_dev"
     },
-    "repoRoot": "/home/sterbenrk987/digidz_dev",
+    "repoRoot": "D:\\Projects\\digidz_dev",
     "distDirRoot": ".next"
   },
-  "appDir": "/home/sterbenrk987/digidz_dev",
+  "appDir": "D:\\Projects\\digidz_dev",
   "relativeAppDir": "",
   "files": [
     ".next\\package.json",
