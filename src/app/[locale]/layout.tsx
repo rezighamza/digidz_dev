@@ -47,3 +47,6 @@ export default async function RootLayout({
     </html>
   );
 }
+
+export const dynamic = "force-dynamic";
+// export function generateStaticParams() { return [{locale: 'en'}, {locale: 'fr'}, {locale: 'ar'}]; }

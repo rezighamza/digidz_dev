@@ -335,6 +335,14 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
+      "rules": {
+        "*.css": {
+          "loaders": [
+            "@tailwindcss/turbopack"
+          ],
+          "as": "*.css"
+        }
+      },
       "resolveAlias": {
         "next-intl/config": "./src/i18n/request.ts"
       },
