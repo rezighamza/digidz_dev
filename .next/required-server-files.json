@@ -105,7 +105,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\Projects\\digidz_dev",
+    "outputFileTracingRoot": "/home/sterbenrk987/digidz_dev",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -338,12 +338,12 @@
       "resolveAlias": {
         "next-intl/config": "./src/i18n/request.ts"
       },
-      "root": "D:\\Projects\\digidz_dev"
+      "root": "/home/sterbenrk987/digidz_dev"
     },
-    "repoRoot": "D:\\Projects\\digidz_dev",
+    "repoRoot": "/home/sterbenrk987/digidz_dev",
     "distDirRoot": ".next"
   },
-  "appDir": "D:\\Projects\\digidz_dev",
+  "appDir": "/home/sterbenrk987/digidz_dev",
   "relativeAppDir": "",
   "files": [
     ".next\\package.json",
