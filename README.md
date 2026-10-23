@@ -38,4 +38,12 @@ Set `NEXT_PUBLIC_SITE_URL` (e.g. `https://digi-dz.store`) so link previews and t
 ## Deploy (1 GB VM)
 
 The VM is too small to build, so `.next/` is built locally and committed (`output: "standalone"`).
-After `npm run build` on Windows, run `python scripts/fix_paths.py` to rewrite absolute paths for the VM.
+After `npm run build` on Windows, rewrite absolute paths for the VM, then commit the build:
+
+```bash
+npm run build
+uv run --no-project --python 3.12 scripts/fix_paths.py
+git add -A && git add -f -- .next ':!.next/cache' ':!.next/dev'
+```
+
+Stop `npm run dev` before building — the script also rewrites `.next/dev`.
