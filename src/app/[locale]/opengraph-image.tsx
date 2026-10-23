@@ -7,6 +7,11 @@ export const alt = "Digi-DZ";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
+// Prerender one image per locale at build time instead of drawing it on every request.
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   // The default OG font has no Arabic glyphs, so the Arabic card uses the French tagline.
