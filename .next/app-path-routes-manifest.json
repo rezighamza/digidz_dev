@@ -1,6 +1,11 @@
 {
+  "/[locale]/[...rest]/page": "/[locale]/[...rest]",
+  "/[locale]/opengraph-image/route": "/[locale]/opengraph-image",
   "/[locale]/page": "/[locale]",
+  "/[locale]/work/[slug]/page": "/[locale]/work/[slug]",
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
-  "/favicon.ico/route": "/favicon.ico"
+  "/icon.svg/route": "/icon.svg",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
 }

@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Digi-DZ — portfolio site
 
-## Getting Started
+The site sent with client pitches: who we are, what we've built (AutoDMS, ClinicOS), how we work,
+and a WhatsApp-first contact form. Next.js 16 (App Router) · next-intl (fr / en / ar) · Tailwind v4.
 
-First, run the development server:
+See [`docs/REDESIGN.md`](docs/REDESIGN.md) for the audit, design decisions and project structure.
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000 → redirects to /fr, /en or /ar from the browser language
+npm run lint
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Where things live
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| What | Where |
+|------|-------|
+| All copy (3 languages) | `messages/{fr,en,ar}.json` — `en.json` defines the typed key set |
+| Phone, WhatsApp, email, site URL | `src/config/site.ts` |
+| Project list (case studies) | `src/content/projects.ts` + `Projects.<slug>` in messages |
+| Home page sections | `src/components/sections/*` |
+| Product UI previews | `src/components/mockups/*` (replace with real screenshots when available) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Adding a case study
+1. Add the slug to `projectSlugs` and an entry in `projects` (`src/content/projects.ts`).
+2. Add `Projects.<slug>` to all three message files with the same keys as the existing projects.
+3. The home card, `/[locale]/work/<slug>` page, footer link and sitemap entry are generated from that.
 
-## Learn More
+### Links worth sending to prospects
+- Showroom: `/fr/work/autodms`
+- Clinic: `/fr/work/clinicos`
 
-To learn more about Next.js, take a look at the following resources:
+Set `NEXT_PUBLIC_SITE_URL` (e.g. `https://digi-dz.store`) so link previews and the sitemap use the right domain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy (1 GB VM)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The VM is too small to build, so `.next/` is built locally and committed (`output: "standalone"`).
+After `npm run build` on Windows, run `python scripts/fix_paths.py` to rewrite absolute paths for the VM.

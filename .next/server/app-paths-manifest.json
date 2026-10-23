@@ -1,6 +1,11 @@
 {
+  "/[locale]/[...rest]/page": "app/[locale]/[...rest]/page.js",
+  "/[locale]/opengraph-image/route": "app/[locale]/opengraph-image/route.js",
   "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/work/[slug]/page": "app/[locale]/work/[slug]/page.js",
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }

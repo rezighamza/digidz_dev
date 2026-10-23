@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://digi-dz.store/fr</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/en</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/ar</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/fr/work/autodms</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr/work/autodms" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en/work/autodms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar/work/autodms" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/en/work/autodms</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr/work/autodms" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en/work/autodms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar/work/autodms" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/ar/work/autodms</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr/work/autodms" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en/work/autodms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar/work/autodms" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/fr/work/clinicos</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr/work/clinicos" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en/work/clinicos" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar/work/clinicos" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/en/work/clinicos</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr/work/clinicos" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en/work/clinicos" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar/work/clinicos" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://digi-dz.store/ar/work/clinicos</loc>
+<xhtml:link rel="alternate" hreflang="fr" href="https://digi-dz.store/fr/work/clinicos" />
+<xhtml:link rel="alternate" hreflang="en" href="https://digi-dz.store/en/work/clinicos" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://digi-dz.store/ar/work/clinicos" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>
